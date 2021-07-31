@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
- name: Default
+ name: Agent28
  demands:
-  -agent.name -equals ubuntu
+  -agent.name -equals sarvesh28
 
 steps:
 - task: NodeTool@0
