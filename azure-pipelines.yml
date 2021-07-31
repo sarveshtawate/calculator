@@ -7,9 +7,9 @@ trigger:
 - master
 
 pool:
- name: Agent28
- demands:
-  -agent.name -equals sarvesh28
+  name: Agent28
+  demands:
+  - agent.name -equals sarvesh28
 
 steps:
 - task: NodeTool@0
